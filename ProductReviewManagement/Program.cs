@@ -177,6 +177,9 @@ namespace ProductReviewManagement
             Console.WriteLine("\nRetrieveAllRecordsWithCondition");
             operations.RetrieveAllRecordsWithCondition(list);
 
+            Console.WriteLine("UsingGroupBy");
+            operations.UsingGroupBy(list);
+
             Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
             
