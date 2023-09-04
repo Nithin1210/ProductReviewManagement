@@ -172,32 +172,9 @@ namespace ProductReviewManagement
 
             Operations operations = new Operations();
             Console.WriteLine("RetriveTopRecords");
-            operations.RetriveTopRecords(list);
+            operations.RetrieveTopRecords(list);
 
-            Console.WriteLine("\nUsingGroupBy");
-            operations.UsingGroupBy(list);
-
-            Console.WriteLine("\nRetriveProductIdAndReview");
-            operations.RetriveProductIdAndReview(list);
-
-            Console.WriteLine("\nSkipTopRecords");
-            operations.SkipTopRecords(list);
-
-            Console.WriteLine("\nAddDataToDataTabel");
-            operations.AddDataToDataTabel(list);
-
-            Console.WriteLine("\nRetriveRecordsFromDataTable");
-            operations.RetriveRecordsFromDataTable();
-
-            Console.WriteLine("\nAvgRating");
-            operations.AvgRating(list);
-
-            Console.WriteLine("\nRetriveUsingReview");
-            operations.RetriveUsingReview(list);
-
-            Console.WriteLine("\nRetriveUsingRating");
-            operations.RetriveUsingRating(list);
-
+         
             operations.Display(list);
             
 
