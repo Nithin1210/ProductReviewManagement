@@ -24,7 +24,7 @@ namespace ProductReviewManagement
                 Console.WriteLine(data.Rating);
                 Console.WriteLine(data.Review);
                 Console.WriteLine(data.IsLike);
-                Console.WriteLine("====");
+                Console.WriteLine("=====");
 
             }
         }
