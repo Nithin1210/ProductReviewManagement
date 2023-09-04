@@ -177,11 +177,14 @@ namespace ProductReviewManagement
             Console.WriteLine("\nRetrieveAllRecordsWithCondition");
             operations.RetrieveAllRecordsWithCondition(list);
 
-            Console.WriteLine("UsingGroupBy");
+            Console.WriteLine("\nUsingGroupBy");
             operations.UsingGroupBy(list);
 
-            Console.WriteLine("RetreiveProductIdAndReview");
+            Console.WriteLine("\nRetreiveProductIdAndReview");
             operations.RetreiveProductIdAndReview(list);
+            
+            Console.WriteLine("\nSkipTopRecords");
+            operations.SkipTopRecords(list);
 
             Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
