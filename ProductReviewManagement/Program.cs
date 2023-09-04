@@ -174,7 +174,10 @@ namespace ProductReviewManagement
             Console.WriteLine("RetriveTopRecords");
             operations.RetrieveTopRecords(list);
 
-         
+            Console.WriteLine("\nRetrieveAllRecordsWithCondition");
+            operations.RetrieveAllRecordsWithCondition(list);
+
+            Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
             
 
