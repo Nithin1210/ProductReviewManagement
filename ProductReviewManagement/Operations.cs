@@ -41,6 +41,14 @@ namespace ProductReviewManagement
             var result = list.Skip(5);
             Display(result.ToList());
         }
+        public void RetreiveProductIdAndReviewss(List<Product> list)
+        {
+            var result = list.Select(x => new { ProductId = x.ProductID, Review = x.Review });
+            foreach (var data in result)
+            {
+                Console.WriteLine(data.ProductId + "    " + data.Review);
+            }
+        }
 
 
         public void Display(List<Product> list)

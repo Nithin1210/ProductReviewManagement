@@ -186,6 +186,9 @@ namespace ProductReviewManagement
             Console.WriteLine("\nSkipTopRecords");
             operations.SkipTopRecords(list);
 
+            Console.WriteLine("\nRetreiveProductIdAndReviewss");
+            operations.RetreiveProductIdAndReviewss(list);
+
             Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
             
