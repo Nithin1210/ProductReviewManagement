@@ -189,6 +189,10 @@ namespace ProductReviewManagement
             Console.WriteLine("\nRetreiveProductIdAndReviewss");
             operations.RetreiveProductIdAndReviewss(list);
 
+            Console.WriteLine("\nAddDataToDataTable");
+            operations.AddDataToDataTable(list);
+
+
             Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
             
