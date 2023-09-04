@@ -180,6 +180,9 @@ namespace ProductReviewManagement
             Console.WriteLine("UsingGroupBy");
             operations.UsingGroupBy(list);
 
+            Console.WriteLine("RetreiveProductIdAndReview");
+            operations.RetreiveProductIdAndReview(list);
+
             Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
             
