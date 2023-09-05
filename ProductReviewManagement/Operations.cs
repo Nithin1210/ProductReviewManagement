@@ -71,6 +71,11 @@ namespace ProductReviewManagement
                 Console.WriteLine("----------------------");
             }
         }
+        public void AvgRating(List<Product> list)
+        {
+            var result = list.Average(x => x.Rating);
+            Console.WriteLine(result);
+        }
 
 
 

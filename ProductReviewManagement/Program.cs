@@ -192,6 +192,9 @@ namespace ProductReviewManagement
             Console.WriteLine("\nAddDataToDataTable");
             operations.AddDataToDataTable(list);
 
+            Console.WriteLine("AvgRating");
+            operations.AvgRating(list);
+
 
             Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
