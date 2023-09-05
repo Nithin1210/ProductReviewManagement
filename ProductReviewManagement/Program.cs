@@ -198,6 +198,9 @@ namespace ProductReviewManagement
             Console.WriteLine("\nRetriveUsingReview");
             operations.RetriveUsingReview(list);
 
+            Console.WriteLine("\nRetriveUsingRating");
+            operations.RetriveUsingRating(list);
+
 
             Console.WriteLine("\n Displaying All the List");
             operations.Display(list);
@@ -207,7 +210,7 @@ namespace ProductReviewManagement
 
         }
     }
-
+        
     
 }
 
